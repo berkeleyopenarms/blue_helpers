@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <name>blue_helpers</name>
+  <version>0.0.0</version>
+  <description>The blue_helpers metapackage contains helpful tools for running the Blue robot arm</description>
+
+  <maintainer email="phil80301@berkeley.edu">Philipp Wu</maintainer>
+
+  <license>MIT</license>
+
+  <author email="brentyi@berkeley.edu">Brent Yi</author>
+  <author email="phil80301@berkeley.edu">Philipp Wu</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>
