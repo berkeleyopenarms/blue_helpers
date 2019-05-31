@@ -1,16 +1,41 @@
-<?xml version="1.0"?>
-<package>
+<package format="2">
   <name>blue_helpers</name>
   <version>0.0.0</version>
-  <description>The blue_helpers metapackage contains helpful tools for running the Blue robot arm</description>
+  <description>The blue_helpers package contains helpful tools for the Blue robot arm</description>
 
   <maintainer email="phil80301@berkeley.edu">Philipp Wu</maintainer>
+  <maintainer email="methyldragon@gmail.com">methylDragon</maintainer>
 
   <license>MIT</license>
 
-  <author email="brentyi@berkeley.edu">Brent Yi</author>
-  <author email="phil80301@berkeley.edu">Philipp Wu</author>
+  <author email="methylDragon@gmail.com">methylDragon</author>
 
   <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
 
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>trajectory_msgs</exec_depend>
+  <exec_depend>control_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>blue_controller_manager</exec_depend>
+  <exec_depend>blue_msgs</exec_depend>
+  <exec_depend>rosbridge_server</exec_depend>
+  <exec_depend>tf2_web_republisher</exec_depend>
+  <exec_depend>effort_controllers</exec_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>message_exectime</exec_depend>
+  <exec_depend>actionlib_msgs</exec_depend>
+
+  <exec_depend>moveit_core</exec_depend>
+  <build_depend>moveit_core</build_depend>
+
+  <exec_depend>moveit_ros_planning_interface</exec_depend>
+  <build_depend>moveit_ros_planning_interface</build_depend>
+
+  <exec_depend>moveit_perception</exec_depend>
+  <build_depend>moveit_perception</build_depend>
+
+  <exec_depend>moveit_visual_tools</exec_depend>
+  <build_depend>moveit_visual_tools</build_depend>
 </package>
