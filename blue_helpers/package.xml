@@ -4,11 +4,11 @@
   <description>The blue_helpers package contains helpful tools for the Blue robot arm</description>
 
   <maintainer email="phil80301@berkeley.edu">Philipp Wu</maintainer>
+  <maintainer email="methyldragon@gmail.com">methylDragon</maintainer>
 
   <license>MIT</license>
 
-  <author email="brentyi@berkeley.edu">Brent Yi</author>
-  <author email="phil80301@berkeley.edu">Philipp Wu</author>
+  <author email="methylDragon@gmail.com">methylDragon</author>
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>rospy</build_depend>
